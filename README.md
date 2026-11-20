@@ -36,3 +36,22 @@ Este projeto implementa uma esteira completa de Machine Learning (end-to-end) pa
    ```bash
    git clone https://github.com/LeticiaSanttos/esteira-ml-risco-credito.git
    cd esteira-ml-risco-credito
+
+2. **Instale as dependências necessárias:**
+    Dentro da pasta do projeto, execute o comando abaixo no terminal para instalar as bibliotecas do requirements.txt:
+
+    pip install -r requirements.txt
+
+3. **Abra o projeto no VS Code ou outra ferramenta:**
+    code .
+
+4. **Selecione o Kernel do Python:**
+
+    No VS Code, abra o arquivo esteira_machine_learning.ipynb.
+    No canto superior direito da tela do notebook, clique em Select Kernel > Python Environments e selecione a versão do Python instalada no seu computador.
+
+5. **Execute o Notebook:**
+
+    Clique no botão Run All (Executar Tudo) na barra de ferramentas superior do notebook.
+
+  Na primeira célula, o kagglehub fará o download automático da base de dados (cs-training.csv) para a pasta do projeto e todas as células serão executadas sequencialmente até a predição final.
